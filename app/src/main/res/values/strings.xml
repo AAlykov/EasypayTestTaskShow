@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">EasypayTestTask</string>
+    <string name="title_activity_single">SingleActivity</string>
+    <string name="authorization_error">Authorization error</string>
+    <string name="authorization_successful">Authorization is successful</string>
+    <string name="empty_fields">All fields must be filled in</string>
+    <string name="error_getting_list">Error getting the list</string>
+    <string name="payments_list_caption">Payments list</string>
+    <string name="no_data">No available data</string>
+    <string name="payment_card_some_text">Test Payment 1 Test Payment 1 Test Payment 1 Test Payment 1 Test Payment 1 Test Payment 1 Test Payment 1 Test Payment 1 Test Payment 1 Test Payment 1 Test Payment 1</string>
+    <string name="payment_card_some_test_date">12.05.2023</string>
+    <string name="payment_card_created_title">Created:</string>
+    <string name="payment_card_amount_title">Amount:</string>
+    <string name="payment_card_n_title">№</string>
+    <string name="payment_card_some_amount_text">101111</string>
+
+</resources>

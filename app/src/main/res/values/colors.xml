@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="background_all_fragments_color">#FFFFFF</color>
+
+    <color name="background_color_fragments">#B1CAFD</color>
+    <color name="background_color_payment_item">#87FCEC</color>
+    <color name="error_login_color">#FA4D4D</color>
+    <color name="error_nodata_color">#FA4D4D</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="yellow">#FFBC00</color>
+    <color name="green">#00FF00</color>
+    <color name="gray">#888888</color>
+</resources>

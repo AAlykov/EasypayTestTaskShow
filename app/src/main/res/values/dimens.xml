@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="space_decorator_size">8dp</dimen>
+    <dimen name="payment_card_elevation">8dp</dimen>
+    <dimen name="payment_card_corner_radius">8dp</dimen>
+    <dimen name="payment_card_constraint_margin">12dp</dimen>
+    <dimen name="payment_card_margin_start_textview">4dp</dimen>
+</resources>
