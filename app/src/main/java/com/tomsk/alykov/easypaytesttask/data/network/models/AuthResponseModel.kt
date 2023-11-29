@@ -6,8 +6,8 @@ data class AuthResponseModel(
     val success: Boolean,
 
     @SerializedName("response")
-    val tokenResponse: TokenResponse?,
+    val tokenResponse: TokenResponse? = null,
 
     @SerializedName("error")
-    val errorModel: ErrorModel?
+    val errorModel: ErrorModel? = null
 )

@@ -1,6 +1,11 @@
 package com.tomsk.alykov.easypaytesttask.data.network.models
 
+import com.google.gson.annotations.SerializedName
+
 data class ErrorModel(
-    val error_code: Int,
-    val error_msg: String
+    @SerializedName("error_code")
+    val errorCode: Int? = null,
+
+    @SerializedName("error_msg")
+    val errorMsg: String? =null
 )

@@ -1,8 +1,8 @@
 package com.tomsk.alykov.easypaytesttask.data.network.models
 
 data class PaymentModel(
-    val id: Int?,
-    val title: String?,
-    val amount: Any?,
-    val created: Int?
+    val id: Int? = null,
+    val title: String? = null,
+    val amount: String? = null,
+    val created: Long? = null
 )

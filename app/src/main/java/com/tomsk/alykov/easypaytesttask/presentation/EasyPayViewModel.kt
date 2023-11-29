@@ -48,7 +48,7 @@ class EasyPayViewModel : ViewModel() {
                 } else {
                     _isLogin.postValue(false)
                     val errorString =
-                        "${authResponse.errorModel?.error_code}. ${authResponse.errorModel?.error_msg}"
+                        "${authResponse.errorModel?.errorCode}. ${authResponse.errorModel?.errorMsg}"
                     _errorResponse.postValue(errorString)
                 }
             } else {
@@ -70,7 +70,7 @@ class EasyPayViewModel : ViewModel() {
             } else {
                 _paymentsList.postValue(null)
                 val errorString =
-                    "${paymentsListResponse?.errorModel?.error_code}. ${paymentsListResponse?.errorModel?.error_msg}"
+                    "${paymentsListResponse?.errorModel?.errorCode}. ${paymentsListResponse?.errorModel?.errorMsg}"
                 _errorPaymentsList.postValue(errorString)
             }
         }
